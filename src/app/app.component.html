@@ -1,8 +1,12 @@
-<div style="display: block;">
-  <canvas baseChart width="400" height="400"
-    [type]="'line'"
+<div style="display: flex; align-items: center; justify-content: center; width: 100vw; height: 100vh;">
+  <div>
+    <canvas baseChart
+    [width]="700"
+    [height]="400"
     [data]="lineChartData"
     [options]="lineChartOptions"
-    [legend]="lineChartLegend">
+    [type]="lineChartType">
   </canvas>
+  </div>
+
 </div>
